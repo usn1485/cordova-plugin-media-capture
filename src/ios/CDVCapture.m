@@ -264,7 +264,7 @@
         if ([pickerController respondsToSelector:@selector(cameraCaptureMode)]) {
             pickerController.cameraCaptureMode = UIImagePickerControllerCameraCaptureModeVideo;
             // pickerController.videoQuality = UIImagePickerControllerQualityTypeHigh;
-            // pickerController.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+            pickerController.cameraDevice = UIImagePickerControllerCameraDeviceFront;
             // pickerController.cameraFlashMode = UIImagePickerControllerCameraFlashModeAuto;
         }
         // CDVImagePicker specific property
